@@ -1,12 +1,11 @@
+import './css/app.css'
 const cards = document.querySelector('.cards')
-
 
 class Card {
     
     constructor(){
         this.card = document.createElement('div')
         this.cardText = document.createElement('p')
-
         this.cardDescription = document.createElement('p')
         this.cardImgDiv = document.createElement('div')
         this.cardButton = document.createElement('button')

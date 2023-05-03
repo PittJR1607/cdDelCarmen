@@ -83,3 +83,5 @@ img {
     transition: ease-in 150ms;
     cursor: pointer;
 }
+
+@import './normalize.css'
