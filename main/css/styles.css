@@ -1,4 +1,27 @@
+:root{
+    --green: ;
+    --red: ;
+    --white: #FFFFFF;
+}
+
 .header{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-title{
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+.logo-pem{
+    width: 15%;
+    height: 15%;
+    
 }
