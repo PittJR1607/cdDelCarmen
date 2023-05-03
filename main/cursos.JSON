@@ -3,38 +3,66 @@
         {
             "courseName" : "Spinning",
             "placesAvailable" : 30,
-            "description" : "Curso de spinning para empleados",
-            "professor" : "profesor de spinning"
+            "description" : "Estación de spinning",
+            "horarioDia1" : "8:30 - 9:00 / 9:20 - 9:50",
+            "horarioDia2" : "11:30-12:00 / 12:20-12:50",
+            "imgUrl" : "https://mltmpgeox6sf.i.optimole.com/w:1200/h:600/q:mauto/rt:fill/g:ce/f:avif/https://advancedcenternj.com/wp-content/uploads/2016/12/couple-in-a-spinning-class-wearing-sportswear-74ENBZH.jpg"
         },
         {
             "courseName" : "Funcional 1",
             "placesAvailable" : 30,
             "description" : "Curso de funcional 1 para empleados",
-            "professor" : "profesor de funcional 1"
+            "horarioDia1" : "8:30 - 9:00 / 9:20 - 9:50",
+            "horarioDia2" : "11:30 - 12:00 / 12:20- 12:50",
+            "imgUrl" : "https://cdn.pixabay.com/photo/2017/01/08/20/20/crossfit-1963860_1280.jpg"
         },
         {
             "courseName" : "Funcional 2",
             "placesAvailable" : 30,
             "description" : "Curso de Funcional 2 para empleados",
-            "professor" : "profesor de Funcional 2"
+            "horarioDia1" : "8:30 - 9:00 / 9:20 - 9:50",
+            "horarioDia2" : "11:30 - 12:00 / 12:20 - 12:50",
+            "imgUrl" : "https://cdn.pixabay.com/photo/2020/07/02/21/15/gym-5364404_1280.jpg"
         },
         {
             "courseName" : "Kangoo",
             "placesAvailable" : 30,
             "description" : "Curso de Kangoo para empleados",
-            "professor" : "profesor de Kangoo"
+            "horarioDia1" : "8:30 - 9:00 / 9:20 - 9:50",
+            "horarioDia2" : "11:30-12:00 / 12:20-12:50",
+            "imgUrl" : "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2019/09/13/15683714290604.jpg"
         },
         {
             "courseName" : "Zumba",
             "placesAvailable" : 30,
             "description" : "Curso de Zumba para empleados",
-            "professor" : "profesor de Zumba"
+            "horarioDia1" : "8:30 - 9:00 / 9:20 - 9:50",
+            "horarioDia2" : "11:30-12:00 / 12:20-12:50",
+            "imgUrl" : "https://cdn.pixabay.com/photo/2019/07/12/20/56/zumba-4333580_1280.jpg"
         },
         {
             "courseName" : "Futbol1",
             "placesAvailable" : 30,
             "description" : "Curso de Futbol1 para empleados",
-            "professor" : "profesor de Futbol1"
+            "horarioDia1" : "8:30 - 9:00 / 9:20 - 9:50",
+            "horarioDia2" : "11:30-12:00 / 12:20-12:50",
+            "imgUrl": "https://cdn.pixabay.com/photo/2021/08/22/20/27/corner-ball-6566084_1280.jpg"
+        },
+        {
+            "courseName" : "Futbol2",
+            "placesAvailable" : 30,
+            "description" : "Curso de Futbol2 para empleados",
+            "horarioDia1" : "8:30 - 12:30",
+            "horarioDia2" : "",
+            "imgUrl" : "https://cdn.pixabay.com/photo/2016/06/15/01/11/soccer-1457988_1280.jpg"
+         },
+        {
+            "courseName" : "Yoga",
+            "placesAvailable" : 30,
+            "description" : "Curso de Yoga para empleados",
+            "horarioDia1" : "8:30-9:00 / 9:20-9:50",
+            "horarioDia2" : "11:30-12:00 / 12:20-12:50",
+            "imgUrl" : "https://cdn.pixabay.com/photo/2017/03/26/21/54/yoga-2176668_1280.jpg"
         }
     ]
 }
