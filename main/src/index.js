@@ -39,8 +39,7 @@ class Card {
 }
 
 async function loadCards(){
-    console.log('cargando cursos...')
-    await fetch("../cursos.JSON")
+    await fetch("./cursos.JSON")
     .then( response => response.json() )
     .then( result => 
             result.courses.forEach( course => {
