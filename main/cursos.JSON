@@ -1,0 +1,40 @@
+{
+   "courses": [
+        {
+            "courseName" : "Spinning",
+            "placesAvailable" : 30,
+            "description" : "Curso de spinning para empleados",
+            "professor" : "profesor de spinning"
+        },
+        {
+            "courseName" : "Funcional 1",
+            "placesAvailable" : 30,
+            "description" : "Curso de funcional 1 para empleados",
+            "professor" : "profesor de funcional 1"
+        },
+        {
+            "courseName" : "Funcional 2",
+            "placesAvailable" : 30,
+            "description" : "Curso de Funcional 2 para empleados",
+            "professor" : "profesor de Funcional 2"
+        },
+        {
+            "courseName" : "Kangoo",
+            "placesAvailable" : 30,
+            "description" : "Curso de Kangoo para empleados",
+            "professor" : "profesor de Kangoo"
+        },
+        {
+            "courseName" : "Zumba",
+            "placesAvailable" : 30,
+            "description" : "Curso de Zumba para empleados",
+            "professor" : "profesor de Zumba"
+        },
+        {
+            "courseName" : "Futbol1",
+            "placesAvailable" : 30,
+            "description" : "Curso de Futbol1 para empleados",
+            "professor" : "profesor de Futbol1"
+        }
+    ]
+}
