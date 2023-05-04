@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Now 10px = 1rem! */
+    font-family: 'Oxygen', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem; /* default font-size for document */
+}
+
+/* Header */
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+}
+.header-img{
+    height: 100%;
+}
+
+/* Navegacion */
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-right: 5rem;
+}
+.header-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: ease-in 150ms;
+}
+.header-nav a:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in 150ms;
+}
+/* Courses */
+.courses-container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(22.5rem, 1fr));
+    gap: 2rem 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 2rem;
+    text-align: center;
+    box-shadow: 0 1.5rem 1rem rgba(128, 128, 128, 0.477);
+    padding: 0 0 1rem 0;
+}
+
+.card-button {
+    background-color: rgb(0, 78, 0);
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    transition: ease-in 150ms;
+}
+.card-button:hover{
+    background-color: rgb(0, 168, 0);
+    transition: ease-in 150ms;
+    cursor: pointer;
+}
+
+@import './normalize.css'
