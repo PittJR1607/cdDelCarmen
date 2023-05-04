@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "webpack serve --open",
     "build": "webpack "
   },
   "author": "J",
@@ -21,7 +21,10 @@
     "style-loader": "^3.3.2"
   },
   "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
     "webpack": "^5.82.0",
-    "webpack-cli": "^5.0.2"
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
   }
 }

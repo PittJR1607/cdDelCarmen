@@ -7,9 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <title>Cursos</title>
+
+    <title>Actividades</title>
 </head>
 <body>
     <header class="header">
@@ -18,12 +17,19 @@
         </div>
         <nav class="header-nav">
             <a href="index.html">Inicio</a>
-            <a href="courses.html">Cursos</a>
+            <a href="actividades.html">Actividades</a>
         </nav>
     </header>
+    <div>
+        <p>Filtra las actividades por dia</p>
+        <select id="fechas">
+            <option value="">
+                mañana
+            </option>
+        </select>
+    </div>
     <main class="courses-container">
         <div class="cards"></div>
     </main>
 </body>
-<script src="js/main.js"></script>
 </html>
