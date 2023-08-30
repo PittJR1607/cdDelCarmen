@@ -1,0 +1,78 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+
+.extralight-shadow {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.100);
+}
+
+.light-shadow {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.200);
+}
+
+.medium-shadow {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.300);
+}
+
+.heavy-shadow {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.400);
+}
+
+.extraheavy-shadow {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.400);
+}
+
+.imagen-logo {
+    background-image: url(/src/assets/logo.svg), linear-gradient(to right, #585858, #585858);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 25%;
+    height: 95vh;
+    width: 95vw;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.bg-gray {
+    background-color: #585858;
+    width: 100w;
+}
+
+.villahermosa{
+    background-image: url(/src/assets/villahermosawhite2023.svg);
+    height: 20rem;
+    background-position: center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media (min-width: 1028px) {
+    .villahermosa{
+        height: 40rem;
+        background-size: cover;
+    }
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.arrowDown{
+    background-image: url(/src/assets/arrowDown.svg);
+    height: 5rem;
+    translate: 0 -12px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    transition: 150ms;
+}
+
+.arrowDown:hover{
+    height: 7rem;
+    transition: 150ms;
+}
+
+.rights-advert{
+    font-size: 10px;
+}

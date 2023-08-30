@@ -1,0 +1,70 @@
+{
+  "activities": [
+    {
+      "date": "4 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 0,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cine.avif?alt=media&token=c838bf6a-1428-48e0-8b62-d6768654593f",
+      "name": "Cine",
+      "time": "19:00-21:30"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 1,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/yoga.jpg?alt=media&token=b925b5c8-8fa8-44d9-845f-33fe2b5c4ed2",
+      "name": "Yoga",
+      "time": "8:00-13:00"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 2,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/zumba.jpeg?alt=media&token=eef544ca-2561-4a7a-95b1-59837c05e972",
+      "name": "Zumba",
+      "time": "8:00-13:00"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 3,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/funcional.webp?alt=media&token=0908a14a-54c5-4681-b757-9aa822088662",
+      "name": "Funcional",
+      "time": "8:00-13:00"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 4,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/kangoo.webp?alt=media&token=615759fd-2b97-48d6-9919-1868364fc4a9",
+      "minAge": 13,
+      "name": "Kangoo Jump",
+      "time": "8:00-13:00"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 5,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cycling.jpeg?alt=media&token=6d76a64d-47a7-4c07-ba76-7d109f32c70b",
+      "minAge": 13,
+      "name": "Outdoor Cycling",
+      "time": "8:00-13:00"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 6,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d",
+      "name": "Futbol",
+      "time": "8:00-13:00"
+    },
+    {
+      "date": "5 de Agosto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh finibus, molestie ante et, efficitur tellus. ",
+      "id": 6,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/inflable.jpeg?alt=media&token=b35e9223-903d-420c-bdc3-1084bf02f998",
+      "name": "Inflables",
+      "time": "Todo el dia 😃"
+    }
+  ]
+}

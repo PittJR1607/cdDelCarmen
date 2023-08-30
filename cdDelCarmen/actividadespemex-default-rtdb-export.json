@@ -1,0 +1,295 @@
+{
+    "actividades": [
+        {
+            "id": 0,
+            "nombre": "Yoga",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/yoga.jpg?alt=media&token=b925b5c8-8fa8-44d9-845f-33fe2b5c4ed2"
+        },
+        {
+            "id": 1,
+            "nombre": "Yoga",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/yoga.jpg?alt=media&token=b925b5c8-8fa8-44d9-845f-33fe2b5c4ed2"
+        },
+        {
+            "id": 2,
+            "nombre": "Yoga",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/yoga.jpg?alt=media&token=b925b5c8-8fa8-44d9-845f-33fe2b5c4ed2"
+        },
+        {
+            "id": 3,
+            "nombre": "Yoga",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/yoga.jpg?alt=media&token=b925b5c8-8fa8-44d9-845f-33fe2b5c4ed2"
+        },
+        {
+            "id": 4,
+            "nombre": "Yoga",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/yoga.jpg?alt=media&token=b925b5c8-8fa8-44d9-845f-33fe2b5c4ed2"
+        },
+        {
+            "id": 5,
+            "nombre": "Zumba",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/zumba.jpeg?alt=media&token=eef544ca-2561-4a7a-95b1-59837c05e972"
+        },
+        {
+            "id": 6,
+            "nombre": "Zumba",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/zumba.jpeg?alt=media&token=eef544ca-2561-4a7a-95b1-59837c05e972"
+        },
+        {
+            "id": 7,
+            "nombre": "Zumba",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/zumba.jpeg?alt=media&token=eef544ca-2561-4a7a-95b1-59837c05e972"
+        },
+        {
+            "id": 8,
+            "nombre": "Zumba",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/zumba.jpeg?alt=media&token=eef544ca-2561-4a7a-95b1-59837c05e972"
+        },
+        {
+            "id": 9,
+            "nombre": "Zumba",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/zumba.jpeg?alt=media&token=eef544ca-2561-4a7a-95b1-59837c05e972"
+        },
+        {
+            "id": 10,
+            "nombre": "Funcional",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/funcional.webp?alt=media&token=0908a14a-54c5-4681-b757-9aa822088662"
+        },
+        {
+            "id": 11,
+            "nombre": "Funcional",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/funcional.webp?alt=media&token=0908a14a-54c5-4681-b757-9aa822088662"
+        },
+        {
+            "id": 12,
+            "nombre": "Funcional",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/funcional.webp?alt=media&token=0908a14a-54c5-4681-b757-9aa822088662"
+        },
+        {
+            "id": 13,
+            "nombre": "Funcional",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/funcional.webp?alt=media&token=0908a14a-54c5-4681-b757-9aa822088662"
+        },
+        {
+            "id": 14,
+            "nombre": "Funcional",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/funcional.webp?alt=media&token=0908a14a-54c5-4681-b757-9aa822088662"
+        },
+        {
+            "id": 15,
+            "nombre": "Kangoo Jump",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/kangoo.webp?alt=media&token=615759fd-2b97-48d6-9919-1868364fc4a9",
+            "minAge": 13
+        },
+        {
+            "id": 16,
+            "nombre": "Kangoo Jump",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/kangoo.webp?alt=media&token=615759fd-2b97-48d6-9919-1868364fc4a9",
+            "minAge": 13
+        },
+        {
+            "id": 17,
+            "nombre": "Kangoo Jump",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/kangoo.webp?alt=media&token=615759fd-2b97-48d6-9919-1868364fc4a9",
+            "minAge": 13
+        },
+        {
+            "id": 18,
+            "nombre": "Kangoo Jump",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/kangoo.webp?alt=media&token=615759fd-2b97-48d6-9919-1868364fc4a9",
+            "minAge": 13
+        },
+        {
+            "id": 19,
+            "nombre": "Kangoo Jump",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/kangoo.webp?alt=media&token=615759fd-2b97-48d6-9919-1868364fc4a9",
+            "minAge": 13
+        },
+        {
+            "id": 20,
+            "nombre": "Cycling in door",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cycling.jpeg?alt=media&token=6d76a64d-47a7-4c07-ba76-7d109f32c70b",
+            "minAge": 13
+        },
+        {
+            "id": 21,
+            "nombre": "Cycling in door",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cycling.jpeg?alt=media&token=6d76a64d-47a7-4c07-ba76-7d109f32c70b",
+            "minAge": 13
+        },
+        {
+            "id": 22,
+            "nombre": "Cycling in door",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cycling.jpeg?alt=media&token=6d76a64d-47a7-4c07-ba76-7d109f32c70b",
+            "minAge": 13
+        },
+        {
+            "id": 23,
+            "nombre": "Cycling in door",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cycling.jpeg?alt=media&token=6d76a64d-47a7-4c07-ba76-7d109f32c70b",
+            "minAge": 13
+        },
+        {
+            "id": 24,
+            "nombre": "Cycling in door",
+            "cupo": 40,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/cycling.jpeg?alt=media&token=6d76a64d-47a7-4c07-ba76-7d109f32c70b",
+            "minAge": 13
+        },
+        {
+            "id": 25,
+            "nombre": "Futbol",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 26,
+            "nombre": "Futbol",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 27,
+            "nombre": "Futbol",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 28,
+            "nombre": "Futbol",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 29,
+            "nombre": "Futbol",
+            "cupo": 30,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 30,
+            "nombre": "Futbol2",
+            "cupo": 39,
+            "fecha": "15 de julio",
+            "horario": "9:30-10:10",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 31,
+            "nombre": "Futbol2",
+            "cupo": 39,
+            "fecha": "15 de julio",
+            "horario": "10:20-11:00",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 32,
+            "nombre": "Futbol2",
+            "cupo": 39,
+            "fecha": "15 de julio",
+            "horario": "11:10-11:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 33,
+            "nombre": "Futbol2",
+            "cupo": 39,
+            "fecha": "15 de julio",
+            "horario": "13:10-13:50",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        },
+        {
+            "id": 34,
+            "nombre": "Futbol2",
+            "cupo": 39,
+            "fecha": "15 de julio",
+            "horario": "14:00-14:40",
+            "imgUrl" : "https://firebasestorage.googleapis.com/v0/b/actividadespemex.appspot.com/o/soccer.jpeg?alt=media&token=b99ced66-82e1-46b3-8a5e-e2897cf6f54d"
+        }
+        
+    ]
+}
