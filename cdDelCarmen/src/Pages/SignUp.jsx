@@ -19,6 +19,13 @@ function SignUp() {
 
     const [isChecked, setIsChecked] = useState(false)
 
+    const[clickedTime, setClickedTime] = useState(null)
+
+    const handleTimeSnap = () => {
+        const currentTime = new Date().toLocaleTimeString();
+        setClickedTime(currentTime)
+    }
+
     const handleCheckboxChange = (event) => {
         setIsChecked(event.target.checked);
     };
@@ -92,7 +99,7 @@ function SignUp() {
                     guestSignUp(userObj)
                 }
             })
-        setMessage('Registrado exitosamente!')
+        
     }
 
     function guestSignUp(userObj) {
@@ -109,7 +116,15 @@ function SignUp() {
                 set(ref(db, 'guests/' + guest.id), guestObj)
             })
         }
-
+        window.scrollTo( {
+            top: 0,
+            behavior: sm
+        })
+        setMessage('Registrado exitosamente!')
+    };
+    
+    const goBack = () => {
+        navigate('/');
     }
 
     return (
@@ -123,7 +138,7 @@ function SignUp() {
                         className="bg-gray-100 w-full border-b-2 border-b-gray-400 transition-colors focus:outline-none focus:border-b-4 focus:border-b-green-700 mt-5"
                         type="text"
                         placeholder="Ficha PEMEX"
-                        onChange={e => setData({ ...data, token: e.target.value })}
+                        onChange={e => setData({ ...data, token: e.target.value.trim() })}
                     />
                     <input
                         className="bg-gray-100 w-full border-b-2 border-b-gray-400 transition-colors mt-5 focus:outline-none focus:border-b-4 focus:border-b-green-700"
@@ -206,9 +221,36 @@ function SignUp() {
                     </div>
 
                     {error !== '' ? <p className=" p-2 my-5 bg-red-800 text-white font-bold mx-auto text-center">{error}</p> : <p className="py-5 my-5">{''}</p>}
-                    {message !== '' ? <p className=" p-2 my-5 bg-green-800 text-white font-bold mx-auto text-center">{message}</p> : <p className="py-5 my-5">{''}</p>}
+                    
+                    {
+                        message === "Registrado exitosamente!" &&
+
+                        <div className="absolute h-full bg-green-600 top-0 w-full left-0 text-2xl lg:text-4xl">
+                            <div onClick={goBack}>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="absolute w-10 h-10 text-white mx-10 mt-10" >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="M15.75 19.5L8.25 12l7.5-7.5"
+                                    />
+                                </svg>
+                            </div>
+                            <div className="flex flex-col h-full justify-center items-center gap-5">
+                                <div className="text-white">Registrado exitosamente!</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-24 h-24 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <div className="text-white">{clickedTime}</div>
+
+
+                            </div>
+                        </div>
+                    }
                     <button
-                        onClick={() => handleSignUp()}
+                        onClick={() => {
+                            handleSignUp()
+                            handleTimeSnap()
+                        } }
                         className="medium-shadow mb-3 text-md w-auto py-2 px-14 uppercase bg-green-700 rounded-md font-bold hover:bg-green-600 text-white cursor-pointer transition-colors text-center items-center"
                     >
                         Registrarse</button>

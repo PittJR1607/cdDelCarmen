@@ -36,10 +36,10 @@ function Home() {
                     ref={divRef}
                 >
 
-                    <div className=" rounded-lg backdrop-blur-lg md:pb-10 pb-32 mt-32 md:mt-10 mx-auto text-white" 
+                    <div className="rounded-lg backdrop-blur-xl bg-black/5 text-white" 
                         
                     >
-                        <div className="villahermosa">
+                        <div className="heroSVG">
                         </div>
 
                         <div className="text-center -translate-y-32 mx-5">
@@ -47,14 +47,14 @@ function Home() {
                             <p className=""></p>
                             <p className="mb-10 text-2xl font-bold ">¡Regístrate con tu Ficha PEMEX!</p>
                             <p className="mb-10 text-2xl font-bold ">¡Habrá sorpresas y regalos!</p>
-                            <Link to="/signUp" className="bg-gray-500 p-2 md:text-2xl  py-2 uppercase  rounded-md font-bold hover:text-black hover:bg-white text-white cursor-pointer transition-colors text-right items-center drop-shadow-lg">
+                            <Link to="/signUp" className="bg-gray-500 px-2 md:text-2xl  py-2 uppercase  rounded-md font-bold hover:text-black hover:bg-white text-white cursor-pointer transition-colors text-right items-center drop-shadow-lg">
                                 Registrarse
                             </Link>
                         </div>
-                        <div className="hover:text-xl transition-all -translate-y-24">
+                        <div className="text-xl transition-all -translate-y-24">
                             <p className="text-center mt-10  ">Ver actividades</p>
                             <div className="arrowDown"
-                                onClick={() => scrollDown()}
+                    
                             >
                             </div> 
 
