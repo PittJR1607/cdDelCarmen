@@ -39,6 +39,9 @@ function Home() {
                     <div className="rounded-lg backdrop-blur-xl bg-black/5 text-white" 
                         
                     >
+
+                        <p className="pt-10 text-xl font-semibold text-center">¡Desliza hacia abajo para más información! </p>
+
                         <div className="heroSVG">
                         </div>
 
@@ -47,7 +50,7 @@ function Home() {
                             <p className=""></p>
                             <p className="mb-10 text-2xl font-bold ">¡Regístrate con tu Ficha PEMEX!</p>
                             <p className="mb-10 text-2xl font-bold ">¡Habrá sorpresas y regalos!</p>
-                            <Link to="/signUp" className="bg-gray-500 px-2 md:text-2xl  py-2 uppercase  rounded-md font-bold hover:text-black hover:bg-white text-white cursor-pointer transition-colors text-right items-center drop-shadow-lg">
+                            <Link to="/signUp" className="bg-gray-500 px-6 md:text-2xl  py-2 uppercase  rounded-md font-bold hover:text-black hover:bg-white text-white cursor-pointer transition-colors text-right items-center drop-shadow-lg">
                                 Registrarse
                             </Link>
                         </div>
